@@ -25,6 +25,15 @@ As the vagrant user:
     cd /home/vagrant/const-checker-experiments-0.1.0
     scripts/analyze-package.py fish 2.5.0
 
+### libsequence
+
+#### Running
+
+    cd /home/vagrant/const-checker-experiments-0.1.0/libsequence/1.8.7
+    makepkg
+    cd /home/vagrant/const-checker-experiments-0.1.0
+    scripts/analyze-package.py libsequence 1.8.7
+
 ### LLVM
 
 #### Running
@@ -42,6 +51,24 @@ As the vagrant user:
     makepkg
     cd /home/vagrant/const-checker-experiments-0.1.0
     scripts/analyze-package.py mosh 1.2.6
+
+### Ninja
+
+#### Running
+
+    cd /home/vagrant/const-checker-experiments-0.1.0/ninja/1.7.2
+    makepkg
+    cd /home/vagrant/const-checker-experiments-0.1.0
+    scripts/analyze-package.py ninja 1.7.2
+
+### OpenCV
+
+#### Running
+
+    cd /home/vagrant/const-checker-experiments-0.1.0/opencv/3.2.0
+    makepkg
+    cd /home/vagrant/const-checker-experiments-0.1.0
+    scripts/analyze-package.py opencv 3.2.0
 
 ### Protobuf
 
