@@ -68,16 +68,10 @@ output:
 
     ### All-mutating
       -  http://localhost:8000/package/fish/2.5.0/decl/66 scoped_rwlock
-      -  http://localhost:8000/package/fish/2.5.0/decl/66 scoped_rwlock
-      -  http://localhost:8000/package/fish/2.5.0/decl/1316 function_autoload_t
       -  http://localhost:8000/package/fish/2.5.0/decl/1316 function_autoload_t
       -  http://localhost:8000/package/fish/2.5.0/decl/673 test_expressions::test_parser
-      -  http://localhost:8000/package/fish/2.5.0/decl/673 test_expressions::test_parser
-      -  http://localhost:8000/package/fish/2.5.0/decl/1066 lru_cache_t::iterator
       -  http://localhost:8000/package/fish/2.5.0/decl/1066 lru_cache_t::iterator
       -  http://localhost:8000/package/fish/2.5.0/decl/1088 autoload_t
-      -  http://localhost:8000/package/fish/2.5.0/decl/1088 autoload_t
-      -  http://localhost:8000/package/fish/2.5.0/decl/1466 completion_autoload_t
       -  http://localhost:8000/package/fish/2.5.0/decl/1466 completion_autoload_t
 
     ## Figure 4
