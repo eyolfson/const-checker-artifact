@@ -47,6 +47,8 @@ Now we can collect the results for fish. In the same directory type the
 following command: `scripts/results.py fish 2.5.0`. You should get the
 output:
 
+    # fish 2.5.0
+
     ## Table I
       - Classes: 129
       - Methods: 299
