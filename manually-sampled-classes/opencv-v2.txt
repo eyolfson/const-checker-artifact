@@ -1,0 +1,220 @@
+# opencv
+Classes & 1539 \\
+\hline
+
+Identical & 252 \\
+
+Randomly sampling 20 classes
+
+- cv::ResizeAreaFastVec_SIMD_8u [18474]
+  - 1 methods
+- cv::DctIPPLoop_Invoker [15758]
+  - 1 methods
+- cv::cmp_pt [35752]
+  - 1 methods
+- cv::KMeansDistanceComputer [15598]
+  - 1 methods
+- cv::NoVec [15343]
+  - 1 methods
+- cv::calcHist2D_Invoker [18323]
+  - 1 methods
+- google::protobuf::FieldDescriptor [20934]
+  - 42 methods
+- cv::MSURF_Upright_Descriptor_64_Invoker [35958]
+  - 2 methods
+- cv::IPPDFT_C_Functor [15688]
+  - 1 methods
+- cv::VMax32f [18683]
+  - 1 methods
+- cv::Dft_C_IPPLoop_Invoker [15668]
+  - 1 methods
+- cv::MatOp_Cmp [15881]
+  - 25 methods
+- cv::MatOp_AddEx [15857]
+  - 25 methods
+- cv::MatOp_Bin [15876]
+  - 25 methods
+- cv::ocl::ProgramSource [15921]
+  - 2 methods
+- google::protobuf::internal::CompareByDerefFirst [23761]
+  - 1 methods
+- cv::ResizeAreaFastVec [18494]
+  - 1 methods
+- LessThanPtr [39919]
+  - 1 methods
+- cv::BlendLinearInvoker [17260]
+  - 1 methods
+- cv::ColumnNoVec [17904]
+  - 1 methods
+
+No \constview{} & 140 \\
+
+Randomly sampling 20 classes
+
+- google::protobuf::io::OstreamOutputStream::CopyingOstreamOutputStream [31907]
+  - 1 methods
+- CvVideoWriter_Images [34282]
+  - 4 methods
+- p3p [36544]
+  - 3 methods
+- google::protobuf::internal::SequenceNumber [20582]
+  - 1 methods
+- google::protobuf::util::converter::JsonObjectWriter::ByteSinkWrapper [32764]
+  - 2 methods
+  - Has easy const method
+- google::protobuf::util::converter::NoopErrorListener [33047]
+  - 3 methods
+  - Has easy const method
+- cv::connectedcomponents::LabelingGrana [17512]
+  - 1 methods
+- CvCascadeImageReader [38452]
+  - 4 methods
+- cvflann::UniqueRandom [16690]
+  - 2 methods
+- base64::Base64Writer [16320]
+  - 2 methods
+- cv::RTTIImpl [35221]
+  - 1 methods
+- base64::BinaryToCvSeqConvertor [16338]
+  - 1 methods
+- CvCascadeClassifier [39754]
+  - 1 methods
+- google::protobuf::util::(anonymous namespace)::MaximumMatcher [33037]
+  - 1 methods
+- (anonymous namespace)::v_atan [15845]
+  - 1 methods
+- google::protobuf::io::IstreamInputStream::CopyingIstreamInputStream [31892]
+  - 2 methods
+- cv::WMByteStream [33947]
+  - 9 methods
+  - Has easy const method
+- cv::detail::PtrOwner [3638]
+  - 2 methods
+  - Has easy const method
+- dls [36486]
+  - 1 methods
+- cv::detail::FeaturesFinder [37744]
+  - 5 methods
+
+Has easy \const{} method & 123 \\
+
+Randomly sampling 20 classes
+
+- cvflann::ZeroIterator [16496]
+  - 5 methods
+  - No const view
+- cv::StereoBMImpl [36729]
+  - 35 methods
+- google::protobuf::MergedDescriptorDatabase [31110]
+  - 5 methods
+  - No const view
+- google::protobuf::io::CodedInputStream [22550]
+  - 36 methods
+- cv::ocl::Kernel::Impl [16080]
+  - 6 methods
+- cv::UMat [6075]
+  - 48 methods
+- cv::connectedcomponents::NoOp [17429]
+  - 3 methods
+  - No const view
+- cv::AddFloatToCharScaled [19964]
+  - 1 methods
+  - No const view
+- cv::videostab::NullFrameSource [37040]
+  - 2 methods
+  - No const view
+- cv::ogl::Buffer [14274]
+  - 26 methods
+- google::protobuf::internal::ExplicitlyConstructed [20667]
+  - 5 methods
+- cv::SCD [34103]
+  - 13 methods
+- cv::MinMax8u [18782]
+  - 3 methods
+- cv::detail::BundleAdjusterBase [37878]
+  - 7 methods
+- google::protobuf::util::internal::ZeroCopyStreamByteSink [33000]
+  - 2 methods
+  - No const view
+- google::protobuf::internal::FieldSkipper [31059]
+  - 3 methods
+  - No const view
+- (anonymous namespace)::OpticalFlowDual_TVL1 [21070]
+  - 32 methods
+- cvflann::anyimpl::big_any_policy [16610]
+  - 9 methods
+  - No const view
+- CvForestTree [39338]
+  - 22 methods
+- cv::detail::SphericalWarperGpu [37559]
+  - 9 methods
+
+Has \const{} complex method & 520 \\
+
+Randomly sampling 20 classes
+
+- cv::RGB2RGB [17372]
+  - This should be ok. I think the analysis needs to be fixed
+    - Something to do with not handling array accesses or pointer dereferences
+      right
+  - 1 methods
+- cv::calcHist1D_Invoker [18309]
+  - Iterators, arrays, and such
+  - 1 methods
+- cv::IPPresizeInvoker [18523]
+  - Iterators, arrays, and such
+  - 1 methods
+- cv::Point_ [3662]
+  - Field method calls
+  - Also in `ddot` it should be simple
+  - 4 methods
+- cv::v_uint16x8 [15152]
+  - Calls `_mm_cvtsi128_si32`, whatever that does
+  - 1 methods
+- cv::OpMax [15313]
+  - Call to `std::max` with unknown types
+  - 1 methods
+- cv::ResizeAreaFastVec_SIMD_32f [18489]
+  - Very complex, lots of built-ins
+  - 1 methods
+- cv::BRISK_Impl [35685]
+  - `write` just fowards the call, doesn't use any fields
+  - Calls method is the reason
+  - 18 methods
+- cv::v_int16x8 [15160]
+  - Calls `_mm_cvtsi128_si32`
+  - 1 methods
+- cv::RemapInvoker [18540]
+  - Iterators, arrays, and such
+  - 1 methods
+- cv::MatOp_Solve [15900]
+  - Call member function
+  - 25 methods
+- cv::PAMDecoder [33740]
+  - Method field call, and method call
+  - 12 methods
+- cv::detail::Graph [37837]
+  - Field method call
+  - 5 methods
+- cv::Affine2DRefineCallback [36583]
+  - Does a lot of array things, src and dst are fields
+  - 1 methods
+- cv::FeatureEvaluator [34847]
+  - Assert and field method call
+  - 13 methods
+- cvflann::Hamming2 [16480]
+  - Pointer arithmetic
+  - 3 methods
+- cvflann::MaxDistance [16474]
+  - Function calls
+  - 1 methods
+- (anonymous namespace)::Vec3iGreaterThanIdx [18096]
+  - 2 level array access
+  - 1 methods
+- (anonymous namespace)::ForwardGradientBody [21469]
+  - This class is weird, 2 public mutable fields, only one const method
+    - This class should definitely change
+  - 1 methods
+- CvDTreeTrainData [39037]
+  - `write_params` calls a lot of functions giving them a field
+  - 25 methods

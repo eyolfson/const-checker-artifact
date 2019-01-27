@@ -1,0 +1,230 @@
+# llvm
+Classes & 9823 \\
+\hline
+
+Identical & 740 \\
+
+Randomly sampling 20 classes
+
+- clang::InclusionDirective [130048]
+  - 7 methods
+- llvm::xray::FuncIdConversionHelper [236559]
+  - 2 methods
+- clang::ento::RegionRawOffset [199543]
+  - 4 methods
+- (anonymous namespace)::RegisterRefs [111120]
+  - 2 methods
+- llvm::pair_hash [56352]
+  - 1 methods
+- llvm::SectionKind [73565]
+  - 24 methods
+- llvm::Loop::LocRange [70420]
+  - 2 methods
+- llvm::LazyCallGraph::SCC [70304]
+  - 9 methods
+- clang::serialization::TypeIdx [190202]
+  - 2 methods
+- (anonymous namespace)::ConstantIntOrdering [88804]
+  - 1 methods
+- (anonymous namespace)::MemberRefVisit [206250]
+  - 4 methods
+- llvm::ThinLTOBuffer [95667]
+  - 3 methods
+- llvm::IdentifyingPassPtr [75684]
+  - 4 methods
+- __ubsan::Location [123676]
+  - 7 methods
+- clang::CFGImplicitDtor [182300]
+  - 5 methods
+- lld::Node [206622]
+  - 1 methods
+- clang::driver::OffloadAction::HostDependence [194574]
+  - 4 methods
+- clang::TargetInfo::AddlRegName [127088]
+  - 0 methods
+- AuxVector [223190]
+  - 4 methods
+- clang::ast_matchers::dynamic::VariantMatcher::PolymorphicPayload [182057]
+  - 4 methods
+
+No \constview{} & 1411 \\
+
+Randomly sampling 20 classes
+
+- clang::threadSafety::BeforeSet [193549]
+  - 3 methods
+- (anonymous namespace)::WidenVector [104343]
+  - 1 methods
+- lldb_private::FormatManager [217965]
+  - 31 methods
+- CMIUtilThreadMutex [234198]
+  - 3 methods
+- llvm::ReversePostOrderFunctionAttrsPass [92598]
+  - 1 methods
+- FDRawChannel [234739]
+  - 9 methods
+  - Has easy const method
+- clang::serialization::MultiOnDiskHashTableGenerator [195947]
+  - 2 methods
+- llvm::PluginLoader [59257]
+  - 1 methods
+- (anonymous namespace)::UninitializedFieldVisitor [183874]
+  - 280 methods
+  - Has easy const method
+- llvm::LowerInvokePass [87627]
+  - 1 methods
+  - Has easy const method
+- llvm::ModuleSummaryIndexAnalysis [94924]
+  - 1 methods
+- (anonymous namespace)::DeclExtractor [185306]
+  - 283 methods
+  - Has easy const method
+- llvm::NameCoverageFilter [234920]
+  - 1 methods
+- lldb::SBTypeSummaryOptions [232672]
+  - 5 methods
+- llvm::DefaultDOTGraphTraits [58775]
+  - 1 methods
+  - Has easy const method
+- (anonymous namespace)::FlattenCFGOpt [87548]
+  - 1 methods
+- llvm::AssumptionAnalysis [79369]
+  - 1 methods
+  - Has easy const method
+- (anonymous namespace)::FinishARCDealloc [189315]
+  - 1 methods
+- (anonymous namespace)::CheckScanfHandler [183695]
+  - 18 methods
+  - Has easy const method
+- llvm::MMIAddrLabelMapCallbackPtr [79803]
+  - 4 methods
+
+Has easy \const{} method & 1808 \\
+
+Randomly sampling 20 classes
+
+- (anonymous namespace)::RewriteModernObjC [198303]
+  - 150 methods
+- lldb_private::process_gdb_remote::GDBRemoteCommunication [226985]
+  - 46 methods
+- lldb_private::BreakpointResolverFileLine [214601]
+  - 15 methods
+- lldb_private::ClangExternalASTSourceCallbacks [230286]
+  - 37 methods
+- llvm::OuterAnalysisManagerProxy [69632]
+  - 1 methods
+  - No const view
+- clang::ContinueStmt [132824]
+  - 27 methods
+- (anonymous namespace)::DependencyGraphCallback [197156]
+  - 30 methods
+  - No const view
+- llvm::SpillPlacement [81075]
+  - 33 methods
+- (anonymous namespace)::BPFDAGToDAGISel [110237]
+  - 40 methods
+- (anonymous namespace)::FindSuperCallVisitor [202473]
+  - 1704 methods
+- (anonymous namespace)::ARMELFObjectWriter [109344]
+  - 16 methods
+- clang::tidy::cppcoreguidelines::CppCoreGuidelinesModule [204516]
+  - 2 methods
+  - No const view
+- __sanitizer::DDetector [122981]
+  - 10 methods
+  - No const view
+- llvm::cl::OptionValueBase [58047]
+  - 5 methods
+- CommandObjectTargetSymbolsAdd [219153]
+  - 39 methods
+- clang::tidy::DefaultOptionsProvider [204116]
+  - 3 methods
+  - No const view
+- lldb_private::TypeNameSpecifierImpl [216407]
+  - 4 methods
+  - No const view
+- PlatformRemoteAppleTV [226877]
+  - 121 methods
+- clang::CodeGenAction [190522]
+  - 21 methods
+- StatusBarWindowDelegate [220070]
+  - 4 methods
+  - No const view
+
+Has \const{} complex method & 4315 \\
+
+Randomly sampling 20 classes
+
+- (anonymous namespace)::FPS [118424]
+  - Argument method called and passed fields
+  - 28 methods
+- clang::CanProxyBase [134303]
+  - Easy field method call (x2)
+  - 53 methods
+- clang::CloneDetector::CloneGroup [191367]
+  - Easy field method call (x2)
+  - 1 methods
+- clang::VTableComponent [179402]
+  - Method calls, also a `reinterpret_cast`
+  - 12 methods
+- clang::tidy::utils::ExprSequence [205357]
+  - `inSequence` is more complex
+  - `potentiallyAfter` calls `inSequence`
+  - 2 methods
+- clang::CodeGen::CGBlockInfo::Capture [188233]
+  - Easy method call
+  - 8 methods
+- clang::ento::StaticGlobalSpaceRegion [199357]
+  - Add fields to argument through method
+  - 27 methods
+- clang::IdentifierResolver [146903]
+  - `isDeclInScope` is complex
+  - 7 methods
+- clang::ContinuousRangeMap [193724]
+  - Easy field method call
+  - 10 methods
+- clang::MSNoVTableAttr [175235]
+  - Easy field method call
+  - `clone` has no location
+  - 16 methods
+- clang::OptimizeNoneAttr [175579]
+  - Easy field method call
+  - `clone` has no location
+  - 16 methods
+- lldb_private::platform_netbsd::PlatformNetBSD [226579]
+  - `IsConnected`, easy method call and field method call
+  - 106 methods
+- lld::elf::GotPltSection [209525]
+  - Easy field method call
+  - 25 methods
+- (anonymous namespace)::ARMAsmParser [109346]
+  - `getParser`, simple method call, but with const_cast
+  - 43 methods
+- (anonymous namespace)::PHIElimination [80946]
+  - `getAnalysisUsage` field to argument method
+  - Easy method call
+  - 27 methods
+- (anonymous namespace)::AMDGPUOpenCLImageTypeLoweringPass [105840]
+  - Easy method call
+  - More analysis calls
+  - 27 methods
+- CMICmdCmdTargetAttach [233725]
+  - `CmdFinishedTellInvoker` "this" is const_casted to a function call
+  - Easy field method call
+  - 20 methods
+- llvm::MCAsmInfo [78769]
+  - Method calls
+  - `getExprForFDESymbol` is a bit more complex, but I think it's just to a
+    local object
+  - 95 methods
+- llvm::X86_64MCAsmInfoDarwin [120681]
+  - Uses field in unknown static function call
+  - 95 methods
+- llvm::codeview::TypeIndex [85280]
+  - `getSimpleKind` easy method call
+  - `getSimpleMode` easy method call
+  - `getIndex` should be simple, analysis has gone wrong
+    - Wrong, the type is kind of insane, we would have to special case the copy
+      constructor too
+  - `isSimple` should be simple, analysis has gone wrong
+  - 6 methods

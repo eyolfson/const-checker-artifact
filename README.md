@@ -92,8 +92,8 @@ counts run the following:
 `cd /home/vagrant/const-checker-experiments-0.1.0/fish/2.5.0` followed by
 `cloc .`. The next section covers how to use the web server. Note that for
 larger projects we sample 20 classes instead. The sampling is random, and
-we provide the classes we manually inspected for LLVM, OpenCV, and Protobuf.
-[PATRICK TODO]
+we provide the classes we manually inspected for LLVM, OpenCV, and Protobuf in the
+data files in the `manually-sampled-classes` subdirectory of this directory.
 
 ## Using the Web Server
 
