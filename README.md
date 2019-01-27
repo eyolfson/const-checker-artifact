@@ -87,10 +87,13 @@ output:
       - % immutable classes (developer-written): 0%
 
 This matches the results in the paper. You may notice there are some links under
-Table III-VII, these are for manual inspection. The next section covers how to
-use the web server. Note that for larger projects we sample 20 classes of each
-instead. The sampling is random, and we provide the classes we manually
-inspected for LLVM, OpenCV, and Protobuf. [PATRICK TODO]
+Table III-VII, these are for manual inspection. To get the lines of code (LOC)
+counts run the following:
+`cd /home/vagrant/const-checker-experiments-0.1.0/fish/2.5.0` followed by
+`cloc .`. The next section covers how to use the web server. Note that for
+larger projects we sample 20 classes of eachinstead. The sampling is random, and
+we provide the classes we manually inspected for LLVM, OpenCV, and Protobuf.
+[PATRICK TODO]
 
 ## Using the Web Server
 

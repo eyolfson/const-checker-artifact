@@ -5,7 +5,7 @@ pacman-key -r 3245467889B6B0C31B668D764D47368BD660A1C7
 pacman-key --lsign-key 3245467889B6B0C31B668D764D47368BD660A1C7
 
 pacman -Syu --noconfirm
-pacman -S base-devel bc bear clang cmake doxygen eigen emacs-nox git gtkglext hdf5 htop intel-tbb libdc1394 libutempter llvm mesa ocaml ocaml-ctypes ocaml-findlib openexr perl-io-tty postgresql protobuf python python-django python-numpy python-psycopg2 python-sphinx python2 python2-numpy python2-setuptools re2c swig unzip wget xine-lib --noconfirm
+pacman -S base-devel bc bear clang cloc cmake doxygen eigen emacs-nox git gtkglext hdf5 htop intel-tbb libdc1394 libutempter llvm mesa ocaml ocaml-ctypes ocaml-findlib openexr perl-io-tty postgresql protobuf python python-django python-numpy python-psycopg2 python-sphinx python2 python2-numpy python2-setuptools re2c swig unzip wget xine-lib --noconfirm
 
 sudo -u postgres -i initdb -D /var/lib/postgres/data
 systemctl enable postgresql
