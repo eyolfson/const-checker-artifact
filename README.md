@@ -62,7 +62,7 @@ output:
 
     ## Table III-VII
       - Immutable & 8 & 0
-      - All-mutating & 20 & 12
+      - All-mutating & 20 & 6
 
     ### Immutable
 
