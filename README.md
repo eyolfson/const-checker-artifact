@@ -85,6 +85,7 @@ output:
     ## Table VIII
       - # non-trivial classes: 29
       - % immutable classes (developer-written): 0%
+      - % unannotated classes (developer-written): 21%
 
 This matches the results in the paper. You may notice there are some links under
 Table III-VII, these are for manual inspection. To get the lines of code (LOC)
