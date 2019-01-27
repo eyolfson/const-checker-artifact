@@ -1,28 +1,28 @@
 # const Checker Artifact
 
-The accompanying artifact for ICSE 2019.
+The accompanying artifact for our ICSE 2019 paper.
 
 ## Overview
 
 For ease of use we provide a virtual machine using Vagrant. Our software should
-work with a standard Linux install, however our experiments use a distribution's
-build scripts for our experiments.
+work with a standard Linux install. However, our experiments use the Arch distribution's
+build scripts.
 
 ## Virtual Machine Setup
 
 We use [Vagrant](https://www.vagrantup.com/) to manage our virtual machine and
-recommend the [VirtualBox](https://www.virtualbox.org/) provider. Please ensure
-to download and install both before continuing.
+recommend the [VirtualBox](https://www.virtualbox.org/) provider. Please
+download and install both before continuing.
 
 We recommend the virtual machine runs with 4 virtual CPUs and 4 GB of memory. If
-your system can handle more plus open the `Vagrantfile` in this directory and
+your system can handle more, open the `Vagrantfile` in this directory and
 increase `vb.cpus` and `vb.memory`. Please ensure port 8000 on your machine is
 not in use.
 
 To start the virtual machine run the following command:
 `vagrant up --provider=virtualbox`. This should setup and provision the virtual
 machine with all our software and required libraries. In the rare case the
-provision fails run: `vagrant destroy` and retry the previous command. Note that
+provision fails, run `vagrant destroy` and retry the previous command. Note that
 the source code of the experiments is not downloaded at this stage. We only
 download experiment source when you build the experiment's software.
 
@@ -31,8 +31,8 @@ commands listed need to be run within the virtual machine.
 
 ## Running the Experiments
 
-Our paper contains 7 software projects, all of the code is in the
-`const-checker-experiments-0.1.0` directory within the home directory. Running
+Our paper contains 7 software projects. All of the code is in the
+`const-checker-experiments-0.1.0` directory under the home directory. Running
 an experiment for a software project requires 2 steps: 1) building the project,
 and 2) analyzing the project.
 
@@ -91,14 +91,14 @@ Table III-VII, these are for manual inspection. To get the lines of code (LOC)
 counts run the following:
 `cd /home/vagrant/const-checker-experiments-0.1.0/fish/2.5.0` followed by
 `cloc .`. The next section covers how to use the web server. Note that for
-larger projects we sample 20 classes of eachinstead. The sampling is random, and
+larger projects we sample 20 classes instead. The sampling is random, and
 we provide the classes we manually inspected for LLVM, OpenCV, and Protobuf.
 [PATRICK TODO]
 
 ## Using the Web Server
 
-We recommend a second connect to the virtual machine, again using `vagrant ssh`,
-for the web server so it can be available for you to browse the results. After
+We recommend a second connection to the virtual machine, again using `vagrant ssh`,
+for the web server, so it can be available for you to browse the results. After
 connecting to the virtual machine please run the following commands:
 
     cd /home/vagrant/const-checker-experiments-0.1.0
@@ -111,7 +111,7 @@ forwards you to the code listing on GitHub.
 
 ## Adding Additional Experiments
 
-Adding more experiments is easy. We used the Linux distribution's build system
+Adding more experiments is easy. We used the Arch Linux distribution's build system
 because we were familiar with it, and knew it worked, but it is not a
 requirement.
 
