@@ -309,7 +309,12 @@ all-mutating classes for LLVM, OpenCV, and Protobuf, and actual
 percentages for fish, Mosh, Ninja, and libsequence. Table IX presents
 estimated percentages of immmutable methods across all of our benchmarks.
 
-
+As an example of the computation for Table IX, consider fish.
+Figure 4 shows that 40% of its methods are const-qualified,
+while 60% are not. The easily const-able analysis found that 10%
+of the non-const-qualified methods were const-able, which
+thus accounts for 40% + 60% * 10% = 46% of methods, as seen
+in Table IX.
 
 [PATRICK TODO]
 We need examples and numbers for "% immutable classes (estimated)" and
