@@ -145,9 +145,18 @@ Here is a full listing of commands for an example project from Github:
 
 Below are the 20 classes we sampled from LLVM, OpenCV, and Protobuf. For each
 class we denote if a class is "Immutable" or "All-mutating" in square brackets,
-if there are no square brackets the class is neither. Reviewers may double check
-our manual classifications by starting the web server and navigating to the same
-classes.
+if there are no square brackets the class is neither. These sampled classes
+correspond to what we used in Table III (LLVM), Table IV (OpenCV), and Table V
+(Protobuf).
+
+Reviewers may double check our manual classifications by starting the web server
+and navigating to the same classes. For convenience we provide a script to get a
+link for a specified class. As an example if you want to review
+`llvm::TypeBasedAAResult` in LLVM, use the following commands:
+`cd /home/vagrant/const-checker-experiments-0.1.0`, then
+`scripts/get-link.py llvm 4.0.0 llvm::TypeBasedAAResult`. These commands will
+generate a link for you to copy into the address bar of your web browser and
+explore.
 
 ### LLVM
 
