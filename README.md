@@ -309,17 +309,20 @@ all-mutating classes for LLVM, OpenCV, and Protobuf, and actual
 percentages for fish, Mosh, Ninja, and libsequence. Table IX presents
 estimated percentages of immmutable methods across all of our benchmarks.
 
+The estimates in Table VIII depend on our manual inspection we do in Table III
+through VII. For example, to calculate "% immutable classes (estimated)" we
+multiply the number of developer annotated "Immutable" classes by the percentage
+of actual "Immutable" classes we found by sampling. In addition, we do the same
+calculation for "Unannotated" classes to find the number of "All-mutating"
+classes. Note that for some projects we found some "Unannotated" classes were
+"Immutable", in this case we add this to the estimate.
+
 As an example of the computation for Table IX, consider fish.
 Figure 4 shows that 40% of its methods are const-qualified,
 while 60% are not. The easily const-able analysis found that 10%
 of the non-const-qualified methods were const-able, which
 thus accounts for 40% + 60% * 10% = 46% of methods, as seen
 in Table IX.
-
-[PATRICK TODO]
-We need examples and numbers for "% immutable classes (estimated)" and
-"% all-mutating classes (estimated)" in Table VIII.
-We also need an example calculation for Table IX.
 
 ## Corrections for Camera-Ready Version
 
@@ -332,6 +335,8 @@ We will correct the camera-ready version of the paper.
   row (consistent with the caption).
 - The calculations for LLVM in Section IV subsection A are wrong, instead of
   15% it should be 10%.
+- In Table V, the "Unannotated" row of the "Immutable" column should be 10 (of
+  20), matching the words in the caption.
 - In Table VIII, the fish "% unannotated classes (developer-written)" should be
   21, the corresponding estimated column is correct.
 
