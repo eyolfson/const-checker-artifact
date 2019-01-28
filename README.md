@@ -398,3 +398,41 @@ all commands here for reference.
     cd /home/vagrant/const-checker-experiments-0.1.0
     scripts/analyze-package.py protobuf 3.3.1
     scripts/results.py protobuf 3.3.1
+
+## Manually Inspected Classes
+
+For completeness this section shows the remaining classes we manually inspected
+for Table VI and VII. Similarly to the sampled classes we denote if a class is
+"Immutable" or "All-mutating" in square brackets, if there are no square
+brackets the class is neither.
+
+### fish
+
+#### Unannotated
+
+- test_expressions::test_parser [All-mutating]
+- function_autoload_t
+- completion_autoload_t
+- autoload_t
+- lru_cache_t::iterator
+- scoped_rwlock [All-mutating]
+
+### Ninja
+
+#### Unannotated
+
+- Lexer
+- (anonymous namespace)::DryRunCommandRunner
+
+### libsequence
+
+#### Immutable
+
+- Sequence::shortestPath [Immutable]
+- Sequence::FST [Immutable]
+- Sequence::PolySIM [Immutable]
+- Sequence::PolySNP [Immutable]
+- Sequence::Comeron95 [Immutable]
+- Sequence::Sites [Immutable]
+- Sequence::coalsim::sfs_times [Immutable]
+- Sequence::RedundancyCom95 [Immutable]
