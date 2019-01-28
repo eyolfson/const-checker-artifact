@@ -7,7 +7,7 @@ The accompanying artifact for our ICSE 2019 paper.
 For ease of use we provide a virtual machine using Vagrant. Our software should
 work with a standard Linux install. However, our experiments use the Arch
 distribution's build scripts. Note that there are some rare cases were our
-numbers do not match our paper under submission, we will correct this in the
+numbers do not match our paper under submission. We will correct these in the
 camera-ready version.
 
 ## Virtual Machine Setup
