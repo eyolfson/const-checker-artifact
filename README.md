@@ -153,17 +153,49 @@ classes.
 
 #### Immutable
 
-- Class 1 [Immutable]
-- Class 2 [Immutable]
-- ...
-- Class 20 [Immutable]
+- (anonymous namespace)::ObjCAtSyncChecker [Immutable]
+- (anonymous namespace)::VforkChecker [Immutable]
+- llvm::NoFolder [Immutable]
+- llvm::SparcFrameLowering [Immutable]
+- (anonymous namespace)::ExplodedGraphViewer [Immutable]
+- clang::ast_type_traits::DynTypedNode [Immutable]
+- llvm::DIELabel [Immutable]
+- clang::driver::tools::nacltools::AssemblerARM [Immutable]
+- clang::CFGBaseDtor [Immutable]
+- clang::driver::tools::wasm::Linker [Immutable]
+- clang::FrontendInputFile [Immutable]
+- llvm::DIEEntry [Immutable]
+- llvm::object::COFFSymbolRef [Immutable]
+- llvm::LanaiSelectionDAGInfo [Immutable]
+- clang::Expr::Classification [Immutable]
+- (anonymous namespace)::NSAutoreleasePoolChecker [Immutable]
+- llvm::ARM::WinEH::RuntimeFunction [Immutable]
+- clang::BuiltinType [Immutable]
+- llvm::SIFrameLowering [Immutable]
+- clang::consumed::PropagationInfo [Immutable]
 
 #### Unannotated
 
-- Class 1 [Immutable]
-- Class 2 [All-mutating]
-- ...
-- Class 20
+- clang::CodeGen::InstrProfStats
+- clang::MultiplexConsumer [Immutable]
+- clang::CodeGenerator
+- (anonymous namespace)::CGNVCUDARuntime
+- JITLoaderGDB
+- llvm::ProfileSummaryInfo
+- (anonymous namespace)::OMPClauseProfiler
+- clang::format::WhitespaceManager [All-mutating]
+- llvm::TypeBasedAAResult [Immutable]
+- (anonymous namespace)::AddToDriver [All-mutating]
+- clang::CodeGen::ConstantInitBuilder::AggregateBuilderBase [All-mutating]
+- llvm::safestack::StackColoring
+- lldb::SBPlatformShellCommand
+- SystemRuntimeMacOSX
+- BinaryFileHandler
+- llvm::support::detail::packed_endian_specific_integral [All-mutating]
+- clang::move::(anonymous namespace)::FindAllIncludes [All-mutating]
+- llvm::CodeViewDebug [All-mutating]
+- (anonymous namespace)::FloatExprEvaluator [All-mutating]
+- llvm::pdb::TypedefDumper [All-mutating]
 
 ### OpenCV
 
