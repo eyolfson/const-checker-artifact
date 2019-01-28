@@ -199,7 +199,99 @@ classes.
 
 ### OpenCV
 
+#### Immutable
+
+- google::protobuf::util::converter::(anonymous namespace)::TypeInfoForTypeResolver
+- cv::VMin [Immutable]
+- cv::MatOp_GEMM [Immutable]
+- cv::Sum_SIMD [Immutable]
+- cv::MatOp_Cmp [Immutable]
+- cv::Acc_SIMD [Immutable]
+- cv::cuda::DeviceInfo [Immutable]
+- google::protobuf::internal::StringPiecePod [Immutable]
+- cv::VAdd [Immutable]
+- google::protobuf::RepeatedFieldRef [Immutable]
+- cv::StdMatAllocator [Immutable]
+- cv::VSub [Immutable]
+- cv::MatOp_Bin [Immutable]
+- cv::VMax [Immutable]
+- cv::_InputOutputArray
+- cv::cvtScale_SIMD [Immutable]
+- cv::_InputArray [Immutable]
+- google::protobuf::TextFormat::FieldValuePrinter [Immutable]
+- cv::_OutputArray [Immutable]
+- google::protobuf::internal::RepeatedPtrFieldStringAccessor [Immutable]
+
+#### Unannotated
+
+- cv::RMByteStream
+- cv::text::OCRBeamSearchDecoder
+- CvPriorityQueueFloat [All-mutating]
+- cv::randpattern::RandomPatternCornerFinder
+- cv::multicalib::MultiCameraCalibration
+- cv::IppMorphTrait
+- cv::Cloning [All-mutating]
+- VocData
+- cv::detail::SurfFeaturesFinder [All-mutating]
+- cv::KAZEFeatures
+- google::protobuf::io::FileOutputStream::CopyingFileOutputStream
+- google::protobuf::util::(anonymous namespace)::StatusErrorListener
+- cvflann::squareDistance
+- google::protobuf::io::FileInputStream::CopyingFileInputStream
+- cv::text::OCRHMMDecoder
+- cv::detail::OrbFeaturesFinder [All-mutating]
+- cv::videostab::VideoFileSource
+- google::protobuf::io::(anonymous namespace)::CommentCollector [All-mutating]
+- cv::AviMjpegStream
+- cv::tld::TrackerTLDImpl::Nexpert
+
 ### Protobuf
+
+#### Immutable
+
+- google::protobuf::compiler::cpp::MessageOneofFieldGenerator [Immutable]
+- google::protobuf::compiler::javanano::PrimitiveOneofFieldGenerator [Immutable]
+- google::protobuf::internal::StringPiecePod [Immutable]
+- google::protobuf::compiler::java::RepeatedImmutableLazyMessageFieldLiteGenerator [Immutable]
+- google::protobuf::compiler::javanano::PrimitiveFieldGenerator [Immutable]
+- google::protobuf::RepeatedFieldRef [Immutable]
+- google::protobuf::compiler::javanano::MapFieldGenerator [Immutable]
+- google::protobuf::compiler::java::RepeatedImmutableEnumFieldGenerator [Immutable]
+- google::protobuf::compiler::java::RepeatedImmutablePrimitiveFieldLiteGenerator [Immutable]
+- google::protobuf::compiler::java::ImmutableStringFieldGenerator [Immutable]
+- google::protobuf::util::converter::(anonymous namespace)::TypeInfoForTypeResolver
+- google::protobuf::compiler::java::RepeatedImmutableEnumFieldLiteGenerator [Immutable]
+- google::protobuf::compiler::cpp::PrimitiveOneofFieldGenerator [Immutable]
+- google::protobuf::compiler::java::ImmutableMapFieldGenerator [Immutable]
+- google::protobuf::compiler::java::ImmutableMessageOneofFieldGenerator [Immutable]
+- google::protobuf::compiler::java::ImmutableMapFieldLiteGenerator [Immutable]
+- google::protobuf::compiler::javanano::AccessorPrimitiveFieldGenerator [Immutable]
+- google::protobuf::compiler::java::ImmutableLazyMessageFieldLiteGenerator [Immutable]
+- google::protobuf::compiler::cpp::RepeatedStringFieldGenerator [Immutable]
+- google::protobuf::internal::MapFieldAccessor [Immutable]
+
+#### Unannotated
+
+- google::protobuf::compiler::cpp::EnumGenerator [Immutable]
+- google::protobuf::io::(anonymous namespace)::CommentCollector [All-mutating]
+- google::protobuf::compiler::csharp::PrimitiveFieldGenerator [Immutable]
+- google::protobuf::internal::LazyDescriptor [All-mutating]
+- google::protobuf::compiler::csharp::MapFieldGenerator
+- google::protobuf::compiler::CommandLineInterface [All-mutating]
+- google::protobuf::compiler::java::ImmutableMessageLiteGenerator [Immutable]
+- google::protobuf::compiler::java::FileGenerator [Immutable]
+- google::protobuf::util::converter::testing::TypeInfoTestHelper
+- google::protobuf::compiler::csharp::EnumFieldGenerator [Immutable]
+- google::protobuf::compiler::csharp::MessageOneofFieldGenerator [Immutable]
+- google::protobuf::io::FileInputStream::CopyingFileInputStream
+- google::protobuf::util::MessageDifferencer::StreamReporter [All-mutating]
+- google::protobuf::util::(anonymous namespace)::StatusErrorListener
+- google::protobuf::io::FileOutputStream::CopyingFileOutputStream
+- google::protobuf::SimpleDescriptorDatabase::DescriptorIndex
+- google::protobuf::compiler::csharp::MessageFieldGenerator [Immutable]
+- google::protobuf::compiler::cpp::MessageGenerator [Immutable]
+- google::protobuf::compiler::javanano::FileGenerator [Immutable]
+- google::protobuf::compiler::csharp::WrapperOneofFieldGenerator [Immutable]
 
 ## Example Calculations
 
