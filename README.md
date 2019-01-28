@@ -332,6 +332,8 @@ We will correct the camera-ready version of the paper.
   row (consistent with the caption).
 - The calculations for LLVM in Section IV subsection A are wrong, instead of
   15% it should be 10%.
+- In Table VIII, the fish "% unannotated classes (developer-written)" should be
+  21, the corresponding estimated column is correct.
 
 We'll update all numbers that depend on these.
 
