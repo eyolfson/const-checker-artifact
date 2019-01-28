@@ -300,6 +300,14 @@ We need examples and numbers for "% immutable classes (estimated)" and
 "% all-mutating classes (estimated)" in Table VIII.
 We also need an example calculation for Table IX.
 
+## Corrections for Camera-Ready Version
+
+- Table III is wrong: in the "Unannotated" row the "Immutable" column should be
+  2 (of 20), and 8 should instead be in the "All-mutating" column of the same
+  row
+- The calculations for LLVM in Section IV subsection A are wrong, instead of
+  15% it should be 10%, we'll make all dependent calculations consistent
+
 ## All Experiment Commands
 
 This section is a reference for running all the experiments. Only two projects
