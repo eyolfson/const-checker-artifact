@@ -403,8 +403,8 @@ all commands here for reference.
 
 For completeness this section shows the remaining classes we manually inspected
 for Table VI and VII. Similarly to the sampled classes we denote if a class is
-"Immutable" or "All-mutating" in square brackets, if there are no square
-brackets the class is neither.
+"Immutable" or "All-mutating" in square brackets. If there are no square
+brackets, the class is neither.
 
 ### fish
 
