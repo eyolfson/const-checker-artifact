@@ -94,7 +94,7 @@ counts run the following:
 `cloc .`. The next section covers how to use the web server. Note that for
 larger projects we sample 20 classes instead. The sampling is random, and
 we provide the classes we manually inspected for LLVM, OpenCV, and Protobuf in the
-data files in the `manually-sampled-classes` subdirectory of this directory.
+"Sampled Classes" section of this document.
 
 ## Using the Web Server
 
@@ -138,6 +138,41 @@ Here is a full listing of commands for an example project from Github:
     cd /home/vagrant/const-checker-experiments-0.1.0
     scripts/analyze-package.py tinyraytracer master
     scripts/results.py tinyraytracer master
+
+## Sampled Classes
+
+Below are the 20 classes we sampled from LLVM, OpenCV, and Protobuf. For each
+class we denote if a class is "Immutable" or "All-mutating" in square brackets,
+if there are no square brackets the class is neither. Reviewers may double check
+our manual classifications by starting the web server and navigating to the same
+classes.
+
+### LLVM
+
+#### Immutable
+
+- Class 1 [Immutable]
+- Class 2 [Immutable]
+- ...
+- Class 20 [Immutable]
+
+#### Unannotated
+
+- Class 1 [Immutable]
+- Class 2 [All-mutating]
+- ...
+- Class 20
+
+### OpenCV
+
+### Protobuf
+
+## Example Calculations
+
+[PATRICK TODO]
+We need examples and numbers for "% immutable classes (estimated)" and
+"% all-mutating classes (estimated)" in Table VIII.
+We also need an example calculation for Table IX.
 
 ## All Experiment Commands
 
