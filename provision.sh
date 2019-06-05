@@ -23,9 +23,9 @@ sudo -u vagrant -i tar xzf /home/vagrant/const-checker-experiments-0.1.0.tar.gz
 sudo -u vagrant -i rm /home/vagrant/const-checker-experiments-0.1.0.tar.gz
 sudo -u vagrant -i bash -c 'cd /home/vagrant/const-checker-experiments-0.1.0 && python manage.py migrate'
 
-sudo -u vagrant -i wget -nv http://laforge.cs.uwaterloo.ca/const-checker-0.1.0.tar.gz
-sudo -u vagrant -i tar xzf /home/vagrant/const-checker-0.1.0.tar.gz
-sudo -u vagrant -i rm /home/vagrant/const-checker-0.1.0.tar.gz
-sudo -u vagrant -i bash -c 'mkdir /home/vagrant/const-checker-0.1.0/build && cd /home/vagrant/const-checker-0.1.0/build && cmake -DCMAKE_INSTALL_PREFIX=/usr .. && make'
-bash -c 'cd /home/vagrant/const-checker-0.1.0/build && make install'
-sudo -u vagrant -i psql cpp_doc -c '\i /home/vagrant/const-checker-0.1.0/sql/functions.sql'
+sudo -u vagrant -i wget -nv https://github.com/eyolfson/const-checker/archive/0.1.1.tar.gz -O /home/vagrant/const-checker-0.1.1.tar.gz
+sudo -u vagrant -i tar xzf /home/vagrant/const-checker-0.1.1.tar.gz
+sudo -u vagrant -i rm /home/vagrant/const-checker-0.1.1.tar.gz
+sudo -u vagrant -i bash -c 'mkdir /home/vagrant/const-checker-0.1.1/build && cd /home/vagrant/const-checker-0.1.1/build && cmake -DCMAKE_INSTALL_PREFIX=/usr .. && make'
+bash -c 'cd /home/vagrant/const-checker-0.1.1/build && make install'
+sudo -u vagrant -i psql cpp_doc -c '\i /home/vagrant/const-checker-0.1.1/sql/functions.sql'
